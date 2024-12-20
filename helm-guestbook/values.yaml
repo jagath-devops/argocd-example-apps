@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: nginx  #gcr.io/heptio-images/ks-guestbook-demo
-  tag: latest #tag: 0.1
-  pullPolicy: Always  #IfNotPresent
+  repository: gcr.io/heptio-images/ks-guestbook-demo
+  tag: 0.1
+  pullPolicy: IfNotPresent
 
 containerPort: 80
 
